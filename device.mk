@@ -202,7 +202,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+	 camera.device@3.2-impl \
     	 android.hardware.camera.provider@2.4-impl \
+         android.hardware.camera.provider@2.4-service \
     	 camera.device@1.0-impl \
 	 libmmcamera_interface2 \
 	 libmmcamera_interface \
